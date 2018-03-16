@@ -1,0 +1,32 @@
+{
+  "list": [
+    {
+      "title": "Военное назначение",
+      "img": "/images/headerUsage/soldier.png",
+      "list": [
+        {
+          "title": "Индивидуальное стрелковое",
+          "link": "/categories/civil/"
+        },
+        {
+          "title": "Снайперское оружие",
+          "link": "/categories/civil/"
+        }
+      ]
+    },
+    {
+      "title": "Спорт",
+      "img": "/",
+      "list": [
+        {
+          "title": "Высокоточная стрельба",
+          "link": "/categories/civil/"
+        },
+        {
+          "title": "Практическая стрельба",
+          "link": "/categories/civil/"
+        }
+      ]
+    }
+  ]
+}

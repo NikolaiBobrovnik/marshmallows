@@ -1,0 +1,53 @@
+{
+  "data": {
+    "title": "SG 410",
+    "images": [
+      {
+        "url": "/images/detailCart/101_TG2_03.png"
+      },
+      {
+        "url": "/images/detailCart/101_TG2_04.png"
+      },
+      {
+        "url": "/images/detailCart/101_TG2_05.png"
+      },
+      {
+        "url": "/images/detailCart/101_TG2_06.png"
+      },
+      {
+        "url": "/images/detailCart/101_TG2_07.png"
+      },
+      {
+        "url": "/images/detailCart/101_TG2_08.png"
+      },
+      {
+        "url": "/images/detailCart/101_TG2_09.png"
+      },
+      {
+        "url": "/images/detailCart/101_TG2_R.png"
+      }
+    ],
+    "characteristic": {
+      "description": "Гладкоствольный карабин, разработанный на базе автомата АК103, использует газоотводную автоматику и запирание поворотом затвора. ",
+      "items": [
+        {
+          "title": "Калибр:",
+          "text": "5,45х39"
+        },
+        {
+          "title": "Магазин:",
+          "text": "10 патронов"
+        },
+        {
+          "title": "Общая длина:",
+          "text": "943 мм"
+        },
+        {
+          "title": "Масса:",
+          "text": "943 мм"
+        }
+      ]
+    },
+    "price": "от 36 990 ₽"
+  }
+}

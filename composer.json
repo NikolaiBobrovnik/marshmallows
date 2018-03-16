@@ -1,0 +1,10 @@
+{
+	"require": {
+		"mobiledetect/mobiledetectlib": "^2.8"
+	},
+	"autoload": {
+		"psr-4": {
+			"Classes\\": "classes/"
+		}
+	}
+}

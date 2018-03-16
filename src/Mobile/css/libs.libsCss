@@ -1,0 +1,4 @@
+@import "~normalize.css";
+@import '~font-awesome/css/font-awesome.min.css';
+@import "~react-dynamic-swiper/lib/styles.css";
+@import '~react-rangeslider/lib/index.css';

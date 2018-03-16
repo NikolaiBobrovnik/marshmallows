@@ -1,0 +1,72 @@
+{
+  "list": [
+    {
+      "title": "Гражданское направление",
+      "link": "/categories/civil/",
+      "list": [
+        {
+          "title": "Гладкоствольные ружья",
+          "link": "/categories/civil/",
+          "list": [
+            {
+              "title": "Тактическое оружие",
+              "link": "/categories/civil/"
+            },
+            {
+              "title": "Спортивное оружие",
+              "link": "/categories/civil/"
+            }
+          ]
+        },
+        {
+          "title": "Нарезные винтовки и карабины",
+          "link": "/categories/civil/",
+          "list": [
+            {
+              "title": "Новое оружие",
+              "link": "/categories/civil/"
+            },
+            {
+              "title": "Старое оружие",
+              "link": "/categories/civil/"
+            }
+          ]
+        },
+        {
+          "title": "Пневматическое оружие",
+          "link": "/categories/civil/"
+        }
+      ]
+    },
+    {
+      "title": "Боевое направление",
+      "link": "/categories/civil/",
+      "list": [
+        {
+          "title": "Гладкоствольные ружья",
+          "link": "/categories/civil/",
+          "list": [
+            {
+              "title": "Тактическое оружие",
+              "link": "/categories/civil/"
+            },
+            {
+              "title": "Спортивное оружие",
+              "link": "/categories/civil/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Служебное оружие",
+      "link": "/categories/civil/",
+      "list": [
+        {
+          "title": "Ружья",
+          "link": "/categories/civil/"
+        }
+      ]
+    }
+  ]
+}

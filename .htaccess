@@ -1,0 +1,70 @@
+DirectoryIndex index.php index.html
+AddDefaultCharset UTF-8
+AddCharset utf-8 .php .html .css .js .xml .json .rss
+ServerSignature Off
+Options -Indexes
+
+php_flag register_globals off
+php_flag magic_quotes_gpc off
+php_flag magic_quotes_runtime Off
+php_value short_open_tag 1
+
+<IfModule mod_rewrite.c>
+
+	RewriteEngine On
+
+	RewriteCond %{HTTP_USER_AGENT} baiduspider|facebookexternalhit|twitterbot|rogerbot|linkedinbot|embedly|quora\ link\ preview|showyoubot|outbrain|pinterest|slackbot|vkShare|W3C_Validator [NC,OR]
+        RewriteCond %{QUERY_STRING} _escaped_fragment_
+        # Only proxy the request to Prerender if it's a request for HTML
+#	RewriteRule ^(?!.*?(\.js|\.css|\.xml|\.less|\.png|\.jpg|\.jpeg|\.gif|\.pdf|\.doc|\.txt|\.ico|\.rss|\.zip|\.mp3|\.rar|\.exe|\.wmv|\.doc|\.avi|\.ppt|\.mpg|\.mpeg|\.tif|\.wav|\.mov|\.psd|\.ai|\.xls|\.mp4|\.m4a|\.swf|\.dat|\.dmg|\.iso|\.flv|\.m4v|\.torrent|\.ttf|\.woff))(index\.php)(.*) http://prerender.institute-bm.com/https://institute-bm.com/$2 [P,L]
+	RewriteRule ^(?!.*?(\.js|\.css|\.xml|\.less|\.png|\.jpg|\.jpeg|\.gif|\.pdf|\.doc|\.txt|\.ico|\.rss|\.zip|\.mp3|\.rar|\.exe|\.wmv|\.doc|\.avi|\.ppt|\.mpg|\.mpeg|\.tif|\.wav|\.mov|\.psd|\.ai|\.xls|\.mp4|\.m4a|\.swf|\.dat|\.dmg|\.iso|\.flv|\.m4v|\.torrent))(index\.php)?(.*) http://prerender.institute-bm.com/https://%{HTTP_HOST}/$3 [P,L]
+
+	# Роутинг для API
+    RewriteRule ^api/([a-zA-Z0-9_-]+)$  api.php?action=$1  [L,QSA]
+
+	# Все запросы к несуществующим файлам перенаправляет в index.php
+	RewriteCond %{REQUEST_URI} !\.(jpg|jpeg|png|gif|svg|swf|flv|css|js|zip|tgz|gz|rar|bz2|doc|xls|exe|pdf|cur|ico|ppt|txt|tar|mid|midi|wav|bmp|rtf|woff|ttf|eot|mp4|ogg|webm)$ [NC]	# кроме таких запросов
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME} !-l
+	RewriteRule ^(.+)$ /index.php?REQUEST_URI=$1 [L,QSA]
+
+</IfModule>
+
+
+
+
+
+# gzip сжатие.
+<IfModule mod_deflate.c>
+
+	# html, txt, css, js, json, xml, htc:
+	AddOutputFilterByType DEFLATE text/html text/plain text/css application/json
+	AddOutputFilterByType DEFLATE text/javascript application/javascript application/x-javascript
+	AddOutputFilterByType DEFLATE text/xml application/xml text/x-component
+
+	# веб-шрифты и svg:
+	<FilesMatch "\.(ttf|otf|eot|svg)$" >
+		SetOutputFilter DEFLATE
+	</FilesMatch>
+</IfModule>
+
+
+
+<IfModule mod_expires.c>
+	<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf|ttf|otf|eot|svg|woff)$">
+		Header set Cache-Control "public"
+		Header set Expires "Fri, 17 May 2030 20:00:00 GMT"
+		FileETag None
+	</FilesMatch>
+	<FilesMatch "\.(json)$">
+        Header set Cache-Control "public"
+        ExpiresActive on
+        ExpiresDefault "access plus 1 month"
+        FileETag None
+    </FilesMatch>
+</IfModule>
+
+
+
+

@@ -1,0 +1,57 @@
+{
+  "data": {
+    "title": "Аксессуары для оружия",
+    "items": [
+      {
+        "title": "",
+        "description": "Оружейный чехол «КС-2» (850х300 мм)",
+        "price": "2 300 ₽",
+        "priceOld": "",
+        "size": "big"
+      },
+      {
+        "title": "",
+        "description": "Оружейный чехол «КС-2» (600х300 мм)",
+        "price": "2 300 ₽",
+        "priceOld": "",
+        "size": "big"
+      },
+      {
+        "title": "",
+        "description": "Жидкость для холодного воронения, 40мл",
+        "price": "550 ₽",
+        "priceOld": "590 ₽"
+      },
+      {
+        "title": "",
+        "description": "Оружейный обезжириватель, 40мл",
+        "price": "120 ₽",
+        "priceOld": ""
+      },
+      {
+        "title": "Фирменная атрибутика для настоящих фанатов",
+        "text": "Сувениры и аксессуары",
+        "size": "big",
+        "collections": "accessories"
+      },
+      {
+        "title": "Коллекция фирменных оружейных ремней",
+        "text": "Качественные и надёжные",
+        "size": "big",
+        "collections": "accessories"
+      },
+      {
+        "title": "",
+        "description": "Оружейное масло, 140мл",
+        "price": "340 ₽",
+        "priceOld": ""
+      },
+      {
+        "title": "",
+        "description": "Керамическая смазка, 140мл",
+        "price": "400 ₽",
+        "priceOld": "460 ₽"
+      }
+    ]
+  }
+}

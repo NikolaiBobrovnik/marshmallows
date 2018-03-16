@@ -1,0 +1,196 @@
+{
+  "data": {
+    "cities": {
+      "1": {
+        "id": 1,
+        "title": "Москва и МО",
+        "titlePrepositional": "Москве и МО",
+        "coordinates": [
+          55.76,
+          37.64
+        ]
+      },
+      "2": {
+        "id": 2,
+        "title": "Питер",
+        "titlePrepositional": "Питере",
+        "coordinates": [
+          59.93,
+          30.31
+        ]
+      }
+    },
+    "shops": [
+      {
+        "id": 1,
+        "cityId": 1,
+        "title": "Магазин «ОхотАктив»",
+        "address": "Москва, Валовая, 8/18",
+        "description": "<div><p><a href='http://ohotaktiv.ru/'>www.ohotaktiv.ru</a></p></div>",
+        "photo": [
+          "photo1.jpg",
+          "photo2.jpg",
+          "photo3.jpg"
+        ],
+        "blockTimeTable": {
+          "timeTable": [
+            {
+              "day": "Понедельник",
+              "timeStart": "10:00",
+              "timeEnd": "20:00"
+            },
+            {
+              "day": "Вторник",
+              "timeStart": "10:00",
+              "timeEnd": "20:00"
+            },
+            {
+              "day": "Среда",
+              "timeStart": "10:00",
+              "timeEnd": "18:00"
+            },
+            {
+              "day": "Четверг",
+              "timeStart": "10:00",
+              "timeEnd": "16:00"
+            },
+            {
+              "day": "Пятница",
+              "timeStart": "10:00",
+              "timeEnd": "20:00"
+            },
+            {
+              "day": "Суббота",
+              "timeStart": "10:00",
+              "timeEnd": "20:00"
+            },
+            {
+              "day": "Воскресенье",
+              "timeStart": "10:00",
+              "timeEnd": "20:00"
+            }
+          ]
+        },
+        "blockPhones": {
+          "phones": [
+            "+7 (495) 959-59-27",
+            "+7 (495) 959-59-34",
+            "+7 (495) 959-59-48"
+          ]
+        },
+        "blockMetro": {
+          "metro": [
+            {
+              "text": "Павелецкая",
+              "dots": [
+                "#06AB45",
+                "#572803"
+              ]
+            },
+            {
+              "text": "Добрынинская",
+              "dots": [
+                "#572803"
+              ]
+            }
+          ]
+        },
+        "blockSocial": {
+          "links": {
+            "vk": "https://vk.com/",
+            "fb": "https://www.facebook.com/"
+          }
+        },
+        "coordinates": [
+          55.76,
+          37.64
+        ]
+      },
+      {
+        "id": 2,
+        "cityId": 2,
+        "title": "Магазин «ОхотАктив222»",
+        "address": "Москва, Валовая, 8/18",
+        "description": "<div><p><a href='http://ohotaktiv.ru/'>www.ohotaktiv.ru</a></p></div>",
+        "photo": [
+          "photo1.jpg",
+          "photo2.jpg",
+          "photo3.jpg"
+        ],
+        "blockTimeTable": {
+          "timeTable": [
+            {
+              "day": "Понедельник",
+              "timeStart": "10:00",
+              "timeEnd": "20:00"
+            },
+            {
+              "day": "Вторник",
+              "timeStart": "10:00",
+              "timeEnd": "20:00"
+            },
+            {
+              "day": "Среда",
+              "timeStart": "10:00",
+              "timeEnd": "18:00"
+            },
+            {
+              "day": "Четверг",
+              "timeStart": "10:00",
+              "timeEnd": "20:00"
+            },
+            {
+              "day": "Пятница",
+              "timeStart": "10:00",
+              "timeEnd": "20:00"
+            },
+            {
+              "day": "Суббота",
+              "timeStart": "10:00",
+              "timeEnd": "20:00"
+            },
+            {
+              "day": "Воскресенье",
+              "timeStart": "10:00",
+              "timeEnd": "20:00"
+            }
+          ]
+        },
+        "blockPhones": {
+          "phones": [
+            "+7 (495) 959-59-27",
+            "+7 (495) 959-59-34",
+            "+7 (495) 959-59-48"
+          ]
+        },
+        "blockMetro": {
+          "metro": [
+            {
+              "text": "Павелецкая",
+              "dots": [
+                "#06AB45",
+                "#572803"
+              ]
+            },
+            {
+              "text": "Добрынинская",
+              "dots": [
+                "#572803"
+              ]
+            }
+          ]
+        },
+        "blockSocial": {
+          "links": {
+            "vk": "https://vk.com/",
+            "fb": "https://www.facebook.com/"
+          }
+        },
+        "coordinates": [
+          59.93,
+          30.31
+        ]
+      }
+    ]
+  }
+}

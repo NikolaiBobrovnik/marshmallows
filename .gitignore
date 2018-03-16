@@ -1,0 +1,10 @@
+.idea
+node_modules
+npm-debug.log
+/temp
+/.hooks/gitlab-webhook-push.log
+/dist-production
+/dist-production-mobile
+/dist-staging
+/api/data.csv
+yarn-error.log

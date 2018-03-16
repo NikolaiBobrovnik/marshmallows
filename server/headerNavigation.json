@@ -1,0 +1,26 @@
+{
+  "logoBig": "/",
+  "logoSmall": "/",
+  "navList": [
+    {
+      "link": "/about/",
+      "title": "О бренде"
+    },
+    {
+      "link": "#production",
+      "title": "Продукция"
+    },
+    {
+      "link": "#use",
+      "title": "Применение"
+    },
+    {
+      "link": "/community/",
+      "title": "Сообщество"
+    },
+    {
+      "link": "/brand-zones/",
+      "title": "Бренд-зоны"
+    }
+  ]
+}

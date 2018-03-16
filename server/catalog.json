@@ -1,0 +1,64 @@
+{
+  "list": [
+    {
+      "title": "SG 410",
+      "image": "/images/headerUsage/soldier.png",
+      "description": "Самозарядный карабин",
+      "price": "27 890",
+      "amount": 6,
+      "newLabel": true,
+      "bigCard": false,
+      "favorite": false
+    },
+    {
+      "title": "SG 410",
+      "image": "/images/headerUsage/soldier.png",
+      "description": "Самозарядный карабин",
+      "price": "27 890",
+      "amount": 6,
+      "newLabel": true,
+      "bigCard": false,
+      "favorite": false
+    },
+    {
+      "title": "SG 410",
+      "image": "/images/headerUsage/soldier.png",
+      "description": "Самозарядный карабин",
+      "price": "27 890",
+      "amount": 6,
+      "newLabel": true,
+      "bigCard": false,
+      "favorite": false
+    },
+    {
+      "title": "SG 410",
+      "image": "/images/headerUsage/soldier.png",
+      "description": "Самозарядный карабин",
+      "price": "27 890",
+      "amount": 6,
+      "newLabel": true,
+      "bigCard": false,
+      "favorite": false
+    },
+    {
+      "title": "SG 410",
+      "image": "/images/headerUsage/soldier.png",
+      "description": "Самозарядный карабин",
+      "price": "27 890",
+      "amount": 6,
+      "newLabel": true,
+      "bigCard": false,
+      "favorite": false
+    },
+    {
+      "title": "SG 410",
+      "image": "/images/headerUsage/soldier.png",
+      "description": "Самозарядный карабин",
+      "price": "27 890",
+      "amount": 6,
+      "newLabel": true,
+      "bigCard": false,
+      "favorite": false
+    }
+  ]
+}
